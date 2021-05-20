@@ -1,0 +1,14 @@
+.infobar {
+    color: rgb(241, 241, 241);
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    padding: 45px 25px 25px 30px;
+}
+
+.hours {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
