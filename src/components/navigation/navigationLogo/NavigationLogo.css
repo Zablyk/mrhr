@@ -1,0 +1,9 @@
+.nav-logo-container {
+    display: flex;
+    flex: 1;  
+    align-items: center;  
+}
+
+.nav-logo-container img {
+    height: 70%;
+}

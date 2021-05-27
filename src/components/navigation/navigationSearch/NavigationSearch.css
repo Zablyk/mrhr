@@ -1,0 +1,6 @@
+.nav-search-container {
+    display: flex;
+    align-items: center;
+    border-left: dashed 2px black;
+    padding: 20px;
+}
