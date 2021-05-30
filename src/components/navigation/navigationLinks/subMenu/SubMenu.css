@@ -1,0 +1,9 @@
+.nav-submenu-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    padding: 5px;
+    border-bottom: solid #fabc3d 2px;
+    transform: translateY(60px);
+}
