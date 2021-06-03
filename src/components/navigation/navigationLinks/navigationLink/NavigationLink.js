@@ -10,14 +10,30 @@ import SubMenu from '../subMenu/SubMenu';
 
 function NavigationLink(props) {
 
+    const handleClick = (e) => {
+
+        const subMenus = document.querySelectorAll('.nav-submenu-container');
+        subMenus.forEach(subMenu=>subMenu.style.opacity = '0')
+
+        const subMenu = e.target.querySelector('.nav-submenu-container');
+        if(subMenu) subMenu.style.opacity = '1';
+    }
+
+    const handleMouseOut = () => {
+        
+        const subMenus = document.querySelectorAll('.nav-submenu-container');
+        subMenus.forEach(subMenu=>subMenu.style.opacity = '0')
+
+    }
+
     return (
-        <div>
+        <div onClick = {handleClick} onMouseOver= {handleClick} onMouseOut = { handleMouseOut }>
             {props.name}
             {
                 props.dropdown && 
                     <>
                     <FontAwesomeIcon className = "nav-link-arrow" icon = {faChevronDown }/>
-                    { props.isOpen && <SubMenu/> }
+                    <SubMenu/>
                     </>
                  }
         </div>

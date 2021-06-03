@@ -1,3 +1,4 @@
+import { faLink } from '@fortawesome/free-solid-svg-icons';
 import React, { useState } from 'react';
 import NavigationLink from './navigationLink/NavigationLink';
 import './NavigationLinks.css';
@@ -13,11 +14,7 @@ const menuLinks = [
 
 
 function NavigationLinks() {
-    const [isOpen, setIsOpen] = useState(true)
-
-    const handleClick = () =>{
-        setIsOpen(!isOpen)
-    }
+    
     return (
         <div className="nav-links-container">
             {
@@ -27,13 +24,6 @@ function NavigationLinks() {
                         dropdown={menu.dropdown} 
                     />)
             }
-
-            {/* <NavigationLink name="Home" />
-            <NavigationLink name="About" />
-            <NavigationLink name="Service" dropdown={true} isOpen={isOpen} onClick={handleClick}/>
-            <NavigationLink name="Project" dropdown={true} isOpen={isOpen} onClick={handleClick}/>
-            <NavigationLink name="Blog"/>
-            <NavigationLink name="Contacts"/> */}
         </div>
     )
 }
