@@ -5,6 +5,7 @@
 .nav-links-container > div {
     display: flex;
     margin-right: 40px;
-    font-weight: 600; 
+    font-size: 18px;
+    font-weight: 800;
     align-items: center;
 }

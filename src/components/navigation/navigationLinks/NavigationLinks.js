@@ -1,5 +1,4 @@
-import { faLink } from '@fortawesome/free-solid-svg-icons';
-import React, { useState } from 'react';
+import React from 'react';
 import NavigationLink from './navigationLink/NavigationLink';
 import './NavigationLinks.css';
 
