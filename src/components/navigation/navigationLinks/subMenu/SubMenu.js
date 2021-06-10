@@ -34,25 +34,14 @@ const SubMenu = (props) => {
         },
     ]
 
-    const handleOnMouseOver = (e) => {
-        e.target.style.opacity = '1';
-    }
-
-
+  
 
     return (
-        <div className="nav-submenu-container" onMouseOver = {handleOnMouseOver}>
+        <div className="nav-submenu-container" >
             {
                 subMenuService.map(subMenu =>
-                        <
-                    SubMenuLink name = {
-                        subMenu.name
-                    }
-                    link = {
-                        subMenu.link
-                    }
-                    />)
-                    }
+                        <SubMenuLink name = { subMenu.name } link = { subMenu.link }/>)     
+            }
         </div>
     )
 }

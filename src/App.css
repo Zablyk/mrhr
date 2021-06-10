@@ -2,6 +2,7 @@
 
 *{
   /* outline : solid 1px black */
+  box-sizing: border-box;
 }
 
 body {

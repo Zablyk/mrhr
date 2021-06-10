@@ -3,3 +3,19 @@
     margin-left: 3px;
     font-size: 10px;
 }
+
+.navigation-link:hover .nav-submenu-container {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(178px);
+}
+
+ .navigation-link:hover {
+    border-bottom: solid 4px black;
+}
+
+.navigation-link {
+    border-bottom: solid 4px transparent;
+    transition: .4s;
+    cursor: pointer;
+}

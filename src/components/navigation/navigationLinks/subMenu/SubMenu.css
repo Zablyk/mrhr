@@ -4,7 +4,9 @@
     position: absolute;
     background-color: white;
     padding: 5px;
-    border-bottom: solid #fabc3d 2px;
-    transform: translateY(130px);
+    border-bottom: solid #fabc3d 4px;
+    transform: translateY(185px);
     opacity : 0;
+    visibility: hidden;
+    transition: .3s;
 }

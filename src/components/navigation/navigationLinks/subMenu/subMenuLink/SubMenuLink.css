@@ -1,7 +1,17 @@
 .sub-menu-link-container {
     text-align: left;
     display: block;
+    padding: 6px;
+    width: 180px;
     text-decoration: none;
     color: black;
     font-weight: 500;
 }
+
+.sub-menu-link-container:hover { 
+    padding-left: 15px;
+    transition: .3s;
+    color: #fabc3d;
+}
+
+
