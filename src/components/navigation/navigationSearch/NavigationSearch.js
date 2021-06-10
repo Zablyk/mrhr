@@ -12,20 +12,19 @@ const [clicked, setClicked] = useState(false);
 
     const handleClick = () => {
         setClicked(!clicked);
-
     }
 
     
     return (
-        <div className="nav-search-container" onClick= {handleClick}>
+        <div className="nav-search-container" >
             {
         clicked ?
             <>
-                <FontAwesomeIcon icon={faTimes} />
+                <FontAwesomeIcon icon={faTimes} onClick={handleClick} />
                 <SearchField/>
             </>
           :  
-           <FontAwesomeIcon icon={faSearch} />
+           <FontAwesomeIcon icon={faSearch} onClick = {handleClick}/>
         }
         </div>
     )

@@ -1,4 +1,25 @@
 .nav-search-field-container {
+    display: flex;
     position: absolute;
-    transform: translateY(55px) translateX(-180px);
+    transform: translateY(70px) translateX(-280px);
+}
+
+.nav-search-field-container input {
+    height: 50px;
+    border: 0;
+    font-size: 18px;
+    padding: 0 15px;
+}
+
+.nav-search-field-container button {
+    background-color: #fabc3d;
+    height: 50px;
+    width: 50px;
+    border: 0;
+    outline: 0;
+}
+
+.nav-search-field-container button:hover svg {
+    filter: invert(100%);
+
 }
