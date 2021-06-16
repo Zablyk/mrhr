@@ -21,11 +21,14 @@ const [clicked, setClicked] = useState(false);
         clicked ?
             <>
                 <FontAwesomeIcon icon={faTimes} onClick={handleClick} />
-                <SearchField/>
+                <SearchField className="nav-search-field-container"/>
             </>
           :  
-           <FontAwesomeIcon icon={faSearch} onClick = {handleClick}/>
-        }
+            <>
+            <FontAwesomeIcon icon={faSearch} onClick = {handleClick}/>
+            <SearchField className="nav-search-field-container hidden"/>
+            </>    
+    }
         </div>
     )
 }

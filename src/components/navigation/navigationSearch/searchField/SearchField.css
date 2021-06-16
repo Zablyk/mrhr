@@ -1,7 +1,12 @@
 .nav-search-field-container {
     display: flex;
     position: absolute;
-    transform: translateY(70px) translateX(-280px);
+    top : 78px;
+    right: 0;
+    transition: .4s;
+    overflow:hidden;
+    height: 50px;
+
 }
 
 .nav-search-field-container input {
@@ -21,5 +26,8 @@
 
 .nav-search-field-container button:hover svg {
     filter: invert(100%);
+}
 
+.nav-search-field-container.hidden{
+    height: 0px;
 }

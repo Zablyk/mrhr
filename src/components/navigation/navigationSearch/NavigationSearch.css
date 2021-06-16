@@ -6,4 +6,9 @@
     margin: 12px 0;
     width: 30px;
     transition: .4s;
+    position: relative;
+}
+
+.nav-search-container svg {
+    cursor: pointer;
 }

@@ -1,5 +1,6 @@
 .navigation-container {
     display: flex;
+    position: relative;
     margin: auto;
     padding: 0 20px;
     max-width: 1200px;

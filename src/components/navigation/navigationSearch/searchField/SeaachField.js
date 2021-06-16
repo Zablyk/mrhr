@@ -4,9 +4,9 @@ import './SearchField.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
-const SearchField = () => {
+const SearchField = (props) => {
     return (
-        <div className="nav-search-field-container">
+        <div className={props.className}>
             <input type="text" placeholder = "Type and hit enter"/>
             <button><FontAwesomeIcon icon={faSearch} size="lg"/></button>
         </div>
