@@ -8,12 +8,13 @@
     background-color: black;
     }
 
-    .hero-container h1,
+    .hero-container-text h1,
     h3,
     button {
         display: block;
         text-align: left;
         margin-left: 200px;
+        position: relative;
     }
 
     .hero-container h3 {
@@ -21,6 +22,7 @@
         font-size: 36px;
     }
     .hero-container h1 {
+        padding-top: 100px;
         color: rgb(241, 241, 241);
         font-size: 76px;
     }
