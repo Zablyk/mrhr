@@ -3,6 +3,7 @@
 *{
   /* outline : solid 1px black */
   box-sizing: border-box;
+  font-family: 'Rajdhani';
 }
 
 input:focus,
@@ -13,9 +14,6 @@ button:focus {
 }
 
 
-body {
-  font-family: 'Rajdhani';
-}
 
 .App {
   text-align: center;

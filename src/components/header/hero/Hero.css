@@ -1,38 +1,87 @@
 .hero-container {
     background-image: url(/src/assets/img//hero-slider-1.jpg);
-    margin-top: -88px;
+    margin-top: -50px;
     max-height: 820px;
     height: 820px;
     background-position: center;
     background-repeat: no-repeat;
     background-color: black;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    }
+
+    .hero-container-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 1200px;
+        width: 1200px;
+            }
+
+    .hero-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: rgba(0,0, 0, 0.4);
     }
 
     .hero-container-text h1,
     h3,
     button {
-        display: block;
         text-align: left;
-        margin-left: 200px;
         position: relative;
+        margin: 0px 0;
+        color: rgb(241, 241, 241);
     }
 
     .hero-container h3 {
-        color: rgb(241, 241, 241);
         font-size: 36px;
+        animation: text-animation 2s;
     }
     .hero-container h1 {
-        padding-top: 100px;
-        color: rgb(241, 241, 241);
-        font-size: 76px;
+        font-size: 60px;
+        animation: text-animation-with-delay 4s;
     }
 
     .hero-container button {
-        width: 200px;
-        height: 64px;
-        font-size: 24px;
+        width: 168px;
+        height: 52px;
+        font-size: 22px;
+        font-weight: 600;
         text-align: center;
         color: #282c34;
         background-color: #fabc3d;
         border: 0px;
+        margin-top: 20px;
+        animation: button-animation 6s;
 }
+
+.hero-container button:hover {
+    color: rgb(241, 241, 241);
+    background-color: #282c34;
+    border: 0px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+@keyframes text-animation {
+    0% {transform: translateY(100px); opacity: 0;}
+    100% {transform: translateY(0); opacity: 1;}
+  }
+
+  @keyframes text-animation-with-delay {
+    0% {transform: translateY(100px); opacity: 0;}
+    50% {transform: translateY(100px); opacity: 0;}
+    100% {transform: translateY(0); opacity: 1;}
+  }
+
+  @keyframes button-animation {
+    0% {transform: translateY(100px); opacity: 0;}
+    75% {transform: translateY(100px); opacity: 0;}
+    100% {transform: translateY(0); opacity: 1;}
+  }

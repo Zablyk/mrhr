@@ -7,4 +7,5 @@
     max-height: 100px;
     height: 90px;
     background-color: #fabc3d;
+    z-index: 10;
 }
