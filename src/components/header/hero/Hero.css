@@ -1,8 +1,8 @@
 .hero-container {
     background-image: url(/src/assets/img//hero-slider-1.jpg);
     margin-top: -50px;
-    max-height: 820px;
-    height: 820px;
+    max-height: 720px;
+    height: 720px;
     background-position: center;
     background-repeat: no-repeat;
     background-color: black;

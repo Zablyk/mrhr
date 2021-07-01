@@ -3,3 +3,8 @@
     flex: 1;  
     align-items: center;
 }
+
+
+.nav-logo-container img {
+    height: 45px;
+}

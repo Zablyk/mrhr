@@ -1,5 +1,5 @@
 import React from 'react';
-import NavLogo from '../../../assets/img/logo.png';
+import NavLogo from '../../../assets/img/logo.svg';
 import './NavigationLogo.css';
 
 function NavigationLogo() {
