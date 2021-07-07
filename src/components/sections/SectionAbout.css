@@ -1,0 +1,35 @@
+.section-about-content {
+    display: flex;
+    max-width: 1200px;
+    width: 1200px;
+    
+}
+
+.section-about-content-text {
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+
+}
+
+.section-about-content-text h3 {
+    font-size: 36px;
+    color: rgb(43, 45, 55);
+    font-weight: 400;
+}
+
+.section-about-content-text h2 {
+    font-size: 42px;
+    color: rgb(43, 45, 55);
+    font-weight: 600;
+    line-height: 1;
+}
+
+.section-about-content-text p {
+    color: rgb(43, 45, 55);
+    font-size: 20px;
+    font-weight: 500;
+}
+

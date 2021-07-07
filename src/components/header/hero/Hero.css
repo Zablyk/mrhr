@@ -31,8 +31,8 @@
     }
 
     .hero-container-text h1,
-    h3,
-    button {
+    .hero-container-text h3,
+    .hero-container-text button {
         text-align: left;
         position: relative;
         margin: 0px 0;

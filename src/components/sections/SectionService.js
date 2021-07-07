@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SctionService = () => {
+const SectionService = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const SctionService = () => {
     )
 }
 
-export default SctionService
+export default SectionService
