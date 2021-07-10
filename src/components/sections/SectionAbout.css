@@ -33,3 +33,22 @@
     font-weight: 500;
 }
 
+.section-about-content-text button {
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(43, 45, 55);
+    background-color: #fabc3d;
+    border: 0px;
+    margin-top: 20px;
+}
+
+.section-about-content-text button:hover {
+    color: rgb(241, 241, 241);
+    background-color: #282c34;
+    border: 0px;
+    margin-top: 20px;
+    cursor: pointer;
+}
