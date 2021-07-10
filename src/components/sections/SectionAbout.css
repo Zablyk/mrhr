@@ -2,7 +2,8 @@
     display: flex;
     max-width: 1200px;
     width: 1200px;
-    position: relative;
+    height: 400px;
+    margin-top: 120px;
 }
 
 .section-about-content-text {
@@ -15,13 +16,14 @@
 }
 
 .section-about-content-text h3 {
-    font-size: 36px;
+    font-size: 32px;
     color: rgb(43, 45, 55);
     font-weight: 400;
 }
 
 .section-about-content-text h2 {
-    font-size: 42px;
+    margin-top: 10px;
+    font-size: 38px;
     color: rgb(43, 45, 55);
     font-weight: 600;
     line-height: 1;
