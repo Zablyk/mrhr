@@ -4,6 +4,14 @@
     margin-top: 120px;
 }
 
+.section-service-content-text {
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
 .section-service-content h3 {
     font-size: 32px;
     color: rgb(43, 45, 55);
