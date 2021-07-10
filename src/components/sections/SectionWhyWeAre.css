@@ -1,0 +1,15 @@
+.section-whyweare-content {
+    display: flex;
+    max-width: 1200px;
+    width: 1200px;
+}
+
+.section-whyweare-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-whyweare-img {
+    display: flex;
+    flex-direction: column;
+}
