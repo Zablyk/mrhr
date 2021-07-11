@@ -12,23 +12,31 @@ const SectionWhyWeAre = () => {
 
         <div className="section-whyweare-content">
         <div className="section-whyweare-text">
-            <div>
-                <img src={ImageTopRated} alt="Top Rated " />
-                <h3>Top Rated</h3>
-                <p> Publishing packages and web page editors now use Lorem Ipsum as their default model text and a search for lorem ipsumwill uncover </p>
+            <div className="block">
+                <img src={ImageTopRated} alt="Top Rated" />
+                <div>
+                    <h4>Top Rated</h4>
+                    <p> Publishing packages and web page editors now use Lorem Ipsum as their default model text and a search for lorem ipsumwill uncover </p>
+                </div>
             </div>
-            <div>
+            <div className="block">
                 <img src={ImageBestQuality} alt="Best Quality" />
-                <h3>Best Quality </h3>
-                <p> Publishing packages and web page editors now use Lorem Ipsum as their default model text and a search for lorem ipsumwill uncover </p>
+                <div>
+                    <h4>Best Quality </h4>
+                    <p> Publishing packages and web page editors now use Lorem Ipsum as their default model text and a search for lorem ipsumwill uncover </p>
+                </div>
             </div>
-            <div >
+            <div className="block">
                 <img src={ImageLowPrice} alt="Low Price" />
-                <h3>Low Price </h3>
-                <p> Publishing packages and web page editors now use Lorem Ipsum as their default model text and a search for lorem ipsumwill uncover </p>
+                <div>
+                    <h4>Low Price </h4>
+                    <p> Publishing packages and web page editors now use Lorem Ipsum as their default model text and a search for lorem ipsumwill uncover </p>
+                </div>
            </div>
+        </div >
+        <div className="image">
+            <img src={ImageWheWeAre} width="100%" alt="Why we are"/>
         </div>
-            <img src={ImageWheWeAre} alt="Why we are"/>
         </div>
     )
 }

@@ -1,7 +1,7 @@
 .section-service-content {
     display: flex;
     width: 1200px;
-    margin-top: 120px;
+    margin-top: 180px;
 }
 
 .section-service-content-text {
@@ -19,9 +19,39 @@
 }
 
 .section-service-content h2 {
-    margin-top: 10px;
-    font-size: 38px;
+    font-size: 40px;
+    width: 500px;
     color: rgb(43, 45, 55);
     font-weight: 600;
     line-height: 1;
 }
+.section-service-content-img {
+    display: flex;
+    padding-top: 60px;
+    width: 772px;
+    overflow: hidden;
+}
+
+.section-service-content-img img {
+    padding: 0 15px;
+    height: 153px;
+    width: 260px;
+}
+
+.section-service-content-img h4 {
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.section-service-content-img h4:hover {
+    color: #fabc3d;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.section-service-content-img div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }

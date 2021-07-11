@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
 
 *{
-  /* outline : solid 1px black */
+  outline : solid 1px black;
   box-sizing: border-box;
   font-family: 'Rajdhani';
 }
@@ -54,6 +54,6 @@ button:focus {
   }
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   margin: 0;
 }
