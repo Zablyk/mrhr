@@ -1,0 +1,47 @@
+.section-team-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+}
+
+.section-team-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 550px;
+    width: 100%;
+}
+
+.section-team-text h3 {
+    font-size: 32px;
+    color: rgb(43, 45, 55);
+    font-weight: 400;
+}
+
+.section-team-text h2 {
+    margin-top: 5px;
+    font-size: 38px;
+    color: rgb(43, 45, 55);
+    font-weight: 600;
+    line-height: 1;
+}
+
+.section-team-text button {
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(43, 45, 55);
+    background-color: #fabc3d;
+    border: 0px;
+    margin-top: 20px;
+}
+
+.section-team-text button:hover {
+    color: rgb(241, 241, 241);
+    background-color: #282c34;
+    border: 0px;
+    margin-top: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+.section-project-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+}
+
+.section-project-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 550px;
+    width: 100%;
+}
+
+.section-project-text h3 {
+    font-size: 32px;
+    color: rgb(43, 45, 55);
+    font-weight: 400;
+}
+
+.section-project-text h2 {
+    margin-top: 5px;
+    font-size: 38px;
+    color: rgb(43, 45, 55);
+    font-weight: 600;
+    line-height: 1;
+}
+
+.section-project-img {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.section-project-img img {
+    margin: 5px;
+}

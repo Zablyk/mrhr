@@ -11,6 +11,7 @@ import ImageServicePainting from '../../assets/img/service-6.jpg'
 
 const SectionService = () => {
     return (
+        <div>
         <div className = "section-service-content">
             <div className="image-serviceman">
                  <img src = {ImageServiceMan} alt="Service Man"/>
@@ -45,8 +46,26 @@ const SectionService = () => {
                          </div>
                      </div>
             </div>
-            
         </div>
+        <div className="image-ruller">
+            <div>
+                <h4>585</h4>
+                <h5>Projects</h5>
+            </div>
+            <div>
+                <h4>378</h4>
+                <h5>Clients</h5>
+            </div>
+            <div>
+                <h4>545</h4>
+                <h5>Sucess</h5>
+            </div>
+            <div>
+                <h4>58</h4>
+                <h5>Awards</h5>
+            </div>
+        </div>
+     </div>           
     )
 }
 
